@@ -36,3 +36,21 @@ program.on("--help", () => {
 });
 
 program.parse(process.argv);
+
+// try {
+//   var app = new App(process.argv, process.cwd());
+// } catch (err) {
+//   process.exit(1);
+// }
+
+// app
+//   .run()
+//   .then((code) => {
+//     end();
+//     process.exit(code);
+//   })
+//   .catch((err) => {
+//     console.error(err);
+//     end();
+//     process.exit(1);
+//   });
